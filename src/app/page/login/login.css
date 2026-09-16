@@ -1,0 +1,70 @@
+.cx input{
+    width: 290px;
+    height: 20px;
+    padding: 2px;
+    border: 1px solid #C9C2FF;
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    text-align:center;
+}
+
+.but button{
+    margin: 5px;
+    height: 20px;
+    background-color: #ffffff;
+    padding: 5px;
+    border: none;
+    
+
+}
+
+.cx{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.but{
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  transform: translateX(115px) translateY(-90px);
+}
+
+.Log{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transform: translateX(0px) translateY(-190px);
+}
+
+.Log button{
+    background-color:#ffffff;
+    border: none;
+    color: #C96B1C;
+
+}
+
+.criar button{
+    background-color: #C96B1C;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
