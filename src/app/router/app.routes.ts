@@ -3,13 +3,18 @@ import { Routes } from "@angular/router";
 import { Home } from "../page/home/home";
 import { Login } from "./../page/login/login";
 import { Logout } from "./../page/logout/logout";
+import { Navbar } from "../components/navbar/navbar";
+
 
 export const routes: Routes = [
 
 {
-  path: "",
+  path: "home",
   component: Home
 },
+
+// http://localhost:4200/home
+
 
 {
   path: "login",
@@ -25,4 +30,14 @@ export const routes: Routes = [
 
   //http://localhost:4200/logout
 
+{
+  path: "navbar",
+  component: Navbar,
+
+  //http://localhost:4200/navbar
+}
+
 ];
+
+
+

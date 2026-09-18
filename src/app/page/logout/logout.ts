@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './logout.css',
   templateUrl: './logout.html',
 })
-export class Logout {}
+export class Logout {
+  logo = 'assets/imagens/Logo.svg';
+}

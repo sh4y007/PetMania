@@ -106,7 +106,9 @@
   flex-direction: column;
   align-items: center;
 
-  gap: 18px;
+  gap: 20px;
+
+  transform: translateY(55px);
 }
 
 
@@ -177,6 +179,8 @@
   align-items: center;
 
   font-size: 11px;
+
+  transform: translateY(10px);
 }
 
 
@@ -196,6 +200,7 @@
   height: 16px;
 
   margin: 0;
+
 }
 
 
@@ -231,6 +236,8 @@
   font-size: 16px;
 
   cursor: pointer;
+
+  transform: translateY(30px);
 }
 
 
@@ -244,7 +251,7 @@
 .btn-secondary {
   margin-top: 0;
 
-  width: 145px;
+  width: 155px;
   height: 45px;
 
   display: flex;
@@ -252,11 +259,11 @@
   align-items: center;
   justify-content: center;
 
-  background-color: white;
+  background-color: #f8f7ff;
 
   color: #d96d0b;
 
-  border: 1px solid #c7c0ff;
+  border: 1px solid #f8f7ff;
 
   border-radius: 0 0 10px 10px;
 
@@ -265,6 +272,8 @@
   font-size: 16px;
 
   box-sizing: border-box;
+
+  transform: translateY(118px);
 }
 
 
