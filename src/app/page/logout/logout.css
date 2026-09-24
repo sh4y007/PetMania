@@ -138,7 +138,8 @@
 
     cursor: pointer;
 
-    transform: translateY(-10px);   
+    transform: translateY(-10px);  
+     
 }
 
 .btn.primary:hover{
@@ -175,4 +176,18 @@
 
 .btn-secondary:hover{
     background-color: #f4f2ff;
+}
+
+.btn-login {
+
+  display: inline-block;
+  padding: 0px 15px;
+
+  color: white;
+
+  text-decoration: none;
+
+  border-radius: 5px;
+
+  text-align: center;
 }

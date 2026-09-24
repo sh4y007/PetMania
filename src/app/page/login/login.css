@@ -1,3 +1,21 @@
+:host {
+  display: block;
+  height: 100vh;
+  overflow: hidden;
+}
+
+::ng-deep html,
+::ng-deep body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.pagina {
+  height: 100vh;
+  overflow: hidden;
+}
+
 /* Página inteira */
 
 .pagina {
@@ -11,6 +29,11 @@
   background-color: #ded9ff;
 
   font-family: Arial, sans-serif;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
 }
 
 
@@ -33,67 +56,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
-
-/* Avatar */
-
-.avatar {
-  position: absolute;
-
-  top: -65px;
-  left: 50%;
-
-  transform: translateX(-50%);
-
-  width: 110px;
-  height: 110px;
-
-  border: 5px solid #f58220;
-
-  border-radius: 50%;
-
-  background-color: #f8f7ff;
-
-  overflow: hidden;
-}
-
-
-/* Cabeça do avatar */
-
-.avatar-cabeca {
-  position: absolute;
-
-  top: 12px;
-  left: 50%;
-
-  transform: translateX(-50%);
-
-  width: 35px;
-  height: 35px;
-
-  background-color: #f58220;
-
-  border-radius: 50%;
-}
-
-
-/* Corpo do avatar */
-
-.avatar-corpo {
-  position: absolute;
-
-  bottom: -5px;
-  left: 50%;
-
-  transform: translateX(-50%);
-
-  width: 75px;
-  height: 58px;
-
-  background-color: #f58220;
-
-  border-radius: 50% 50% 0 0;
+  transform: translateX(320px);
 }
 
 
@@ -280,3 +244,41 @@
 .btn-secondary:hover {
   background-color: #f4f2ff;
 }
+
+.btn-entrar {
+  
+  display: inline-block;
+
+  padding: 0px 15px;
+
+  color: white;
+
+  text-decoration: none;
+
+  border-radius: 5px;
+
+  text-align: center;
+}
+
+.Imagem1{
+  width: 445px;
+  border-radius: none;
+  position: relative;
+  left: 640px;
+  transform: translateY(232px);
+  min-height: 100vh;
+  scrollbar-width: none;
+  pointer-events: none; 
+}
+
+.Icone{
+  width: 200px;
+  border-radius: none;
+  position: relative;
+  right: 441px;
+  transform: translateY(-232px);
+  min-height: 100vh;
+  scrollbar-width: none;
+  pointer-events: none; 
+}
+
