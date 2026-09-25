@@ -29,8 +29,8 @@
 .logout-container{ 
     position: relative;
 
-    width: 430px;
-    min-height: 470px;
+    width: 550px;
+    min-height: 490px;
 
     background-color: #f8f7ff;
 
@@ -151,7 +151,7 @@
 
     cursor: pointer;
 
-    transform: translateY(-10px);  
+    transform: translateY(18px);  
      
 }
 
@@ -184,7 +184,7 @@
 
     box-sizing: border-box;
 
-    transform: translateY(115px);
+    transform: translateY(140px);
 }
 
 .btn-secondary:hover{
@@ -225,8 +225,8 @@ img{
     height: 260px;
 
     position: relative;
-    transform: translateY(-1400px);
-    left: 738px;
+    transform: translateY(-1416px);
+    left: 748px;
 
 
 }
